@@ -4,6 +4,7 @@ import tw from 'twin.macro'
 import StoryDecorator from 'utils/storybook/StoryDecorator'
 import { InputText } from '.'
 import InputLabel from './InputLabel'
+import InputMessage from './InputMessage'
 
 export default {
   title: 'Forms/InputText',
@@ -16,7 +17,12 @@ export const BasicExample = () => {
     <div>
       <div css={tw`mb-3 last:mb-0`}>
         <InputLabel>Full Name</InputLabel>
-        <InputText css={tw`block w-full`} />
+        <InputText placeholder="Enter your name" css={tw`block w-full`} />
+      </div>
+      <div css={tw`mb-3 last:mb-0`}>
+        <InputLabel>Email address</InputLabel>
+        <InputText errors placeholder="Example: me@example.com" css={tw`block w-full`} />
+        <InputMessage errors>Please enter your email.</InputMessage>
       </div>
     </div>
   )

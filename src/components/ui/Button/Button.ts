@@ -1,6 +1,5 @@
 /* eslint-disable react/button-has-type */
 import * as React from 'react'
-import {} from '@emotion/core'
 import tw from 'twin.macro'
 import { ButtonSizes, ButtonVariants } from './types'
 

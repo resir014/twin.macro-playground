@@ -1,5 +1,7 @@
 export { default as InputLabel } from './InputLabel'
 
+export { default as InputMessage } from './InputMessage'
+
 export { default as InputText } from './InputText'
 export * from './InputText'
 
