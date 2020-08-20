@@ -1,11 +1,9 @@
 import * as React from 'react'
 import tw from 'twin.macro'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import Avatar from './Avatar'
 
 export default {
-  title: 'Avatar',
-  decorators: [StoryDecorator]
+  title: 'Avatar'
 }
 
 export const BasicExample = () => {

@@ -1,13 +1,11 @@
 import * as React from 'react'
 import tw from 'twin.macro'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 
 import Card from './Card'
 
 export default {
   title: 'Card',
-  component: Card,
-  decorators: [StoryDecorator]
+  component: Card
 }
 
 export const BasicExample = () => {

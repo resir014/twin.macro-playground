@@ -1,11 +1,9 @@
 import * as React from 'react'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import Accordion, { AccordionContent } from './Accordion'
 
 export default {
   title: 'Accordion',
-  component: Accordion,
-  decorators: [StoryDecorator]
+  component: Accordion
 }
 
 const accordionItems: AccordionContent[] = [

@@ -1,18 +1,3 @@
 {
-  "presets": ["next/babel", "@emotion/babel-preset-css-prop"],
-  "plugins": [
-    "babel-plugin-macros",
-    [
-      "babel-plugin-module-resolver",
-      {
-        "root": ["."],
-        "alias": {
-          "components": "./src/components",
-          "styles": "./src/styles",
-          "utils": "./src/utils"
-        },
-        "cwd": "babelrc"
-      }
-    ]
-  ]
+  "presets": ["next/babel", "@emotion/babel-preset-css-prop"]
 }

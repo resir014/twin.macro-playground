@@ -1,15 +1,13 @@
 import * as React from 'react'
 import {} from '@emotion/core'
 import tw from 'twin.macro'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import { InputText } from '.'
 import InputLabel from './InputLabel'
 import InputMessage from './InputMessage'
 
 export default {
   title: 'Forms/InputText',
-  component: InputText,
-  decorators: [StoryDecorator]
+  component: InputText
 }
 
 export const BasicExample = () => {

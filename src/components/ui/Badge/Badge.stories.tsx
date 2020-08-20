@@ -1,12 +1,10 @@
 import * as React from 'react'
 import tw from 'twin.macro'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import Badge from './Badge'
 
 export default {
   title: 'Badge',
-  component: Badge,
-  decorators: [StoryDecorator]
+  component: Badge
 }
 
 export const BasicExample = () => {

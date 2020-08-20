@@ -1,14 +1,12 @@
 import * as React from 'react'
 import {} from '@emotion/core'
 import tw from 'twin.macro'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import { InputTextarea } from '.'
 import InputLabel from './InputLabel'
 
 export default {
   title: 'Forms/InputTextarea',
-  component: InputTextarea,
-  decorators: [StoryDecorator]
+  component: InputTextarea
 }
 
 export const BasicExample = () => {

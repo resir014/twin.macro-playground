@@ -24,7 +24,7 @@ const Image = styled('img')<Pick<AvatarProps, 'size'>>`
 const Avatar: React.FC<AvatarProps> = ({ className, style, src, altText, size, variant }) => {
   return (
     <Root
-      css={[tw`inline-block overflow-hidden`, variant === 'rounded' ? tw`rounded-full` : tw`rounded-sm`]}
+      css={[tw`inline-block overflow-hidden bg-gray-200`, variant === 'rounded' ? tw`rounded-full` : tw`rounded-sm`]}
       className={className}
       style={style}
       size={size}

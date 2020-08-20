@@ -1,12 +1,10 @@
 import * as React from 'react'
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 
 import Modal from './Modal'
 
 export default {
   title: 'Modal',
-  component: Modal,
-  decorators: [StoryDecorator]
+  component: Modal
 }
 
 export const BasicExample = () => {

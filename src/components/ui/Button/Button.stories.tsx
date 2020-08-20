@@ -3,7 +3,6 @@ import {} from '@emotion/core'
 import tw from 'twin.macro'
 import { action } from '@storybook/addon-actions'
 
-import StoryDecorator from 'utils/storybook/StoryDecorator'
 import {
   buttonStyle,
   buttonVariantDefault,
@@ -12,11 +11,10 @@ import {
   buttonVariantSuccess,
   buttonVariantWarning,
   buttonVariantDanger
-} from './Button'
+} from './styles'
 
 export default {
-  title: 'Button',
-  decorators: [StoryDecorator]
+  title: 'Button'
 }
 
 export const BasicExample = () => (
