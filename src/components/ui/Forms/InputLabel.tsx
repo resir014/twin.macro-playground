@@ -3,8 +3,8 @@ import * as React from 'react'
 import {} from '@emotion/core'
 import { inputLabelBase } from './styles'
 
-const InputLabel: React.FC<React.LabelHTMLAttributes<HTMLLabelElement>> = ({ css, ...rest }) => {
-  return <label css={[inputLabelBase, css as any]} {...rest} />
+const InputLabel: React.FC<React.LabelHTMLAttributes<HTMLLabelElement>> = ({ ...rest }) => {
+  return <label css={[inputLabelBase]} {...rest} />
 }
 
 export default InputLabel

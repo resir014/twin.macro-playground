@@ -1,9 +1,9 @@
 import * as React from 'react'
 import tw from 'twin.macro'
 
-import Page from 'components/Page'
-import Navigation from 'components/Navigation'
-import Content from 'components/Content'
+import Page from 'components/layout/Page'
+import Navigation from 'components/layout/Navigation'
+import Content from 'components/layout/Content'
 import { InputLabel, InputText, InputTextarea } from 'components/ui/Forms'
 
 const IndexPage = () => (

@@ -7,8 +7,8 @@ export interface InputTextProps extends React.InputHTMLAttributes<HTMLInputEleme
   errors?: boolean
 }
 
-const InputText: React.FC<InputTextProps> = ({ errors, css, ...rest }) => {
-  return <input css={[inputBase, errors ? inputErrorState : inputDefaultState, css as any]} {...rest} />
+const InputText: React.FC<InputTextProps> = ({ errors, ...rest }) => {
+  return <input css={[inputBase, errors ? inputErrorState : inputDefaultState]} {...rest} />
 }
 
 export default InputText

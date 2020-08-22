@@ -7,8 +7,8 @@ export interface InputTextareaProps extends React.TextareaHTMLAttributes<HTMLTex
   errors?: boolean
 }
 
-const InputTextarea: React.FC<InputTextareaProps> = ({ errors, css, rows = 3, ...rest }) => {
-  return <textarea css={[inputBase, errors ? inputErrorState : inputDefaultState, css as any]} rows={rows} {...rest} />
+const InputTextarea: React.FC<InputTextareaProps> = ({ errors, rows = 3, ...rest }) => {
+  return <textarea css={[inputBase, errors ? inputErrorState : inputDefaultState]} rows={rows} {...rest} />
 }
 
 export default InputTextarea

@@ -1,12 +1,10 @@
 import * as React from 'react'
-import tw from 'twin.macro'
+import { cardBase } from './styles'
 
 export interface CardProps {
   className?: string
   style?: React.CSSProperties
 }
-
-const cardBase = tw`bg-white rounded-md shadow-lg`
 
 const Card: React.FC<CardProps> = ({ className, style, children }) => {
   return (

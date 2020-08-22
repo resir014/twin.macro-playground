@@ -3,9 +3,9 @@ import {} from '@emotion/core'
 import tw from 'twin.macro'
 import Link from 'next/link'
 
-import Page from 'components/Page'
-import Navigation from 'components/Navigation'
-import Content from 'components/Content'
+import Page from 'components/layout/Page'
+import Navigation from 'components/layout/Navigation'
+import Content from 'components/layout/Content'
 
 const AboutPage = () => (
   <Page title="About | Next.js TypeScript Quickstart">
