@@ -39,5 +39,6 @@ export const WithAnchorLink = () => (
     >
       Hello Button
     </a>
+    <div css={[buttonStyle, buttonVariantDefault, buttonSizeMedium, tw`inline-block mr-4`]}>henlo</div>
   </div>
 )
