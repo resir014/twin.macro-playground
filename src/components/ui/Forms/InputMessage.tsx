@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {} from '@emotion/core'
-import { inputMessageBase, inputMessageErrorState } from './styled'
+import { inputMessageBase, inputMessageErrorState } from './styles'
 
 export interface InputMessageProps extends React.HTMLAttributes<HTMLSpanElement> {
   errors?: boolean

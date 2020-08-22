@@ -6,7 +6,7 @@ import Navigation from 'components/Navigation'
 import Content from 'components/Content'
 import { InputLabel, InputText, InputTextarea } from 'components/ui/Forms'
 
-export default () => (
+const IndexPage = () => (
   <Page>
     <Navigation />
     <Content>
@@ -24,3 +24,5 @@ export default () => (
     </Content>
   </Page>
 )
+
+export default IndexPage

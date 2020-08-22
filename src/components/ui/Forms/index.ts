@@ -7,3 +7,5 @@ export * from './InputText'
 
 export { default as InputTextarea } from './InputTextarea'
 export * from './InputTextarea'
+
+export * from './styles'

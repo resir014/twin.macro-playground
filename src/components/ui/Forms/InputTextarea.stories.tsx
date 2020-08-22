@@ -5,7 +5,7 @@ import { InputTextarea } from '.'
 import InputLabel from './InputLabel'
 
 export default {
-  title: 'Forms/InputTextarea',
+  title: 'Components/Forms/InputTextarea',
   component: InputTextarea
 }
 

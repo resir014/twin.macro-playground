@@ -7,7 +7,7 @@ import Page from 'components/Page'
 import Navigation from 'components/Navigation'
 import Content from 'components/Content'
 
-export default () => (
+const AboutPage = () => (
   <Page title="About | Next.js TypeScript Quickstart">
     <Navigation />
     <Content>
@@ -29,3 +29,5 @@ export default () => (
     `}</style>
   </Page>
 )
+
+export default AboutPage

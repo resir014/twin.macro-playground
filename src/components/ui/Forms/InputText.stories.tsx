@@ -6,7 +6,7 @@ import InputLabel from './InputLabel'
 import InputMessage from './InputMessage'
 
 export default {
-  title: 'Forms/InputText',
+  title: 'Components/Forms/InputText',
   component: InputText
 }
 

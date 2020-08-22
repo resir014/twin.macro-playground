@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 import Avatar from './Avatar'
 
 export default {
-  title: 'Avatar'
+  title: 'Components/Avatar'
 }
 
 export const BasicExample = () => {

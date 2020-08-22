@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 import Badge from './Badge'
 
 export default {
-  title: 'Badge',
+  title: 'Components/Badge',
   component: Badge
 }
 

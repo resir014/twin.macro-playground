@@ -4,7 +4,7 @@ import Notification from './Notification'
 import NotificationContainer from './NotificationContainer'
 
 export default {
-  title: 'Notification'
+  title: 'Components/Notification'
 }
 
 export const BasicExample = () => {

@@ -3,7 +3,7 @@ import * as React from 'react'
 import Modal from './Modal'
 
 export default {
-  title: 'Modal',
+  title: 'Components/Modal',
   component: Modal
 }
 
