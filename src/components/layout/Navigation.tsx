@@ -11,6 +11,9 @@ const Navigation: React.SFC = () => (
       <Link href="/about">
         <a>About</a>
       </Link>
+      <Link href="/contact">
+        <a>Contact</a>
+      </Link>
     </nav>
     <style jsx>{`
       header {
